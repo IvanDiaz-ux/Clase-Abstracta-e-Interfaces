@@ -1,4 +1,11 @@
-package PACKAGE_NAME;
+public class Perro extends Mamifero {
+    public Perro(String nombre, int edad) {
+        super(nombre, edad);
+    }
 
-public class Perro {
+    @Override
+    public void hacerRuido() {
+        System.out.println("guau");
+    }
 }
+
